@@ -1,0 +1,19 @@
+{
+  "name": "frisbytypescript",
+  "version": "1.0.0",
+  "description": "simple API test framework using Jasmine and Frisby",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && jasmine ./compiled/spec.js"
+  },
+  "author": "Clarencio Tan",
+  "license": "ISC",
+  "devDependencies": {
+    "frisby": "^2.1.0",
+    "jasmine": "^3.1.0"
+  },
+  "dependencies": {
+    "@types/frisby": "^2.0.1",
+    "@types/jasmine": "^2.8.8"
+  }
+}
