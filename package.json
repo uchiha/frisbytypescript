@@ -4,16 +4,22 @@
   "description": "simple API test framework using Jasmine and Frisby",
   "main": "index.js",
   "scripts": {
-    "test": "tsc && jasmine ./compiled/spec.js"
+    "test": ""
   },
   "author": "Clarencio Tan",
   "license": "ISC",
   "devDependencies": {
+    "cucumber": "^4.2.1",
     "frisby": "^2.1.0",
+    "grunt": "^1.0.3",
+    "grunt-cucumberjs": "^2.0.2",
+    "grunt-ts": "^5.5.1",
     "jasmine": "^3.1.0"
   },
   "dependencies": {
+    "@types/cucumber": "^4.0.4",
     "@types/frisby": "^2.0.1",
-    "@types/jasmine": "^2.8.8"
+    "@types/jasmine": "^2.8.8",
+    "assert": "^1.4.1"
   }
 }
